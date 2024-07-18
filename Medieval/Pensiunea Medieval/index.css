@@ -1,2 +1,16 @@
+.carousel {
+    max-width: 50rem;
+    margin: 1rem auto;
+    
+}
 
+.carousel-item img {
+    height: 500px;
+    object-fit: cover;
+    
+}
+
+.carousel-inner {
+    border-radius: 10px;
+}
 

@@ -1,68 +1,79 @@
+@import url("https://fonts.googleapis.com/css2?family=Gupter:wght@400;500;700&display=swap");
 
-
+body {
+  background-color: #000031ed !important;
+  color: whitesmoke !important;
   
-  .nav-item{
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-weight: 400;
-    font-size: medium;
-    font-style: oblique;
-   
+}
 
-  }
+.gupter-regular {
+  font-family: "Gupter", serif;
+  font-weight: 400;
+  font-style: normal;
+}
 
-  .mt-3{
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-weight: 400;
-    font-size:50px;
-    font-style:italic
-  }
-  
+.nav-item {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-weight: 400;
+  font-size: medium;
+  font-style: oblique;
+}
+
+.mt-3 {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-weight: 400;
+  font-size: 50px;
+  font-style: italic;
+}
 
 .carousel {
-    max-width: 50rem;
-    margin: 1rem auto;
-    
+  max-width: 50rem;
+  margin: 1rem auto;
 }
 
 .carousel-item img {
-    height:auto;
-    object-fit:cover;
-    
+  height: 600px;
+  object-fit: contain;
 }
 
-
-    
 .carousel-inner {
-    border-radius: 10px;
-    margin-left: 10px;
+  border-radius: 10px;
+  margin-left: 10px;
 }
-
-
-
 
 .p {
-    box-sizing: border-box;
-    
+  box-sizing: border-box;
 }
 
-.p-center{
-text-align: center;
-margin-left: 50px;
-margin-right: 10px;
-margin-top: 10px;
-font-size: medium;
-font-family: Verdana, Geneva, Tahoma, sans-serif;
-font-style: oblique;
-font-weight: bolder;
-
+.p-center {
+  text-align: center;
+  margin: auto;
+  padding: 0 1rem;
+  margin-top: 10px;
+  font-size: medium;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-style: oblique;
+  font-weight: bolder;
 }
 
+.responsive-img-container {
+  width: 50%;
+}
 
+.active {
+  background-color: #12123f!important;
+  color: white!important;
+  border-radius: 5px!important;
+}
 
+.gallery-photos-container img {
+  width: 350px;
+  height: 350px;
+  object-fit: cover;
+}
 
-
-
-
-
-
-
+@media only screen and (max-width: 800px) {
+  .responsive-img-container {
+    width: 100%;
+  }
+}
